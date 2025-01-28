@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paradigm Pet Professionals</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="headerSection">
+      <div id="homepageHeaderDiv">
+        <img id="homepagelogo" src="./logo.png" />
+      </div>
+      <div id="homepageHeaderDiv">
+        <h1 id="homepageh1">Paradigm Pet Professionals</h1>
+      </div>
+    </section>
+    <section class="navSection">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li class="dropdown">
+            Pets
+            <ul class="dropdown-content">
+              <li><a class="dropdownItem" href="cats.html">Cats</a></li>
+              <li><a class="dropdownItem" href="dogs.html">Dogs</a></li>
+              <li><a class="dropdownItem" href="fish.html">Fish</a></li>
+            </ul>
+          </li>
+          <li><a href="./contact.html">Schedule an Appointment</a></li>
+          <li><a href="./about.html">About Us</a></li>
+          <li>
+            <div class="search">
+              <form action="#">
+                <input
+                  type="text"
+                  placeholder="  Search"
+                  name="search"
+                  id="searchbox"
+                />
+                <button id="searchboxicon">
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="homepagemidsection">
+      <div class="row">
+        <div class="column1">
+          <h2 style="padding-bottom: 10px">Contact Us</h2>
+          <br>
+            <label for="fname">First name:</label><br />
+            <input type="text" id="fname" name="fname" /><br /><br />
+            <label for="lname">Last name:</label><br />
+            <input type="text" id="lname" name="lname" /><br /><br />
+            <label for="tel">Phone Number:</label><br />
+            <input type="tel" id="tel" name="tel" /><br /><br />
+            <label for="email">Email Address:</label><br />
+            <input type="email" id="email" name="email" /><br /><br />
+            <label for="timeZone">Time Zone:</label><br />
+            <input type="text" id="timeZone" name="timeZone" /><br /><br />
+            <label for="pname">Pet's name:</label><br />
+            <input type="text" id="pname" name="pname" /><br /><br />
+            <label for="ptype">Pet's Type:</label><br />
+            <input type="text" id="ptype" name="ptype" /><br /><br />
+            <label for="pAge">Pet's Age:</label><br />
+            <input type="number" id="pAge" name="pAge" /><br /><br />
+        </br>
+            <input type="submit" id="submit" name="submit" /><br /><br />
+          </form>
+        </div>
+        <div class="column2">
+          <img
+            style="height: 50vh; width: 40vw"
+            src="https://st5.depositphotos.com/1826664/65229/i/450/depositphotos_652295920-stock-photo-contact-concept-image-text-pet.jpg"
+            alt="pic of contact us"
+            id="homepageimg"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <i class="fa fa-copyright" aria-hidden="true"></i>
+    2025 Paradigm Pet Professionals
+  </footer>
+</html>
