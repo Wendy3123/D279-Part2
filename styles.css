@@ -121,3 +121,27 @@ footer {
 #contactusarrow {
   padding-top: 10px;
 }
+
+.column1 input,
+.column1 select {
+  border-radius: 5px;
+  width: 30vw;
+  height: 3vh;
+}
+
+.column1 label {
+  font-size: 17px;
+}
+
+#submit {
+  width: 12vw;
+  height: 3vh;
+  margin-left: 9vw;
+  font-size: 16.5px;
+}
+
+#submit:hover {
+  color: red;
+  font-size: 18px;
+  height: 4vh;
+}

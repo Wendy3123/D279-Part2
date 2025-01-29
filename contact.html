@@ -65,14 +65,27 @@
             <label for="email">Email Address:</label><br />
             <input type="email" id="email" name="email" /><br /><br />
             <label for="timeZone">Time Zone:</label><br />
-            <input type="text" id="timeZone" name="timeZone" /><br /><br />
+            <select name="timeZone" id="timeZone" >
+                <option value="HST">HST</option>
+                <option value="AKST">AKST</option>
+                <option value="EST">EST</option>
+                <option value="PST">PST</option>
+                <option value="MST">MST</option>
+                <option value="CST">CST</option>
+                <option value="HDT">HDT</option>
+            </select><br /><br />
             <label for="pname">Pet's name:</label><br />
             <input type="text" id="pname" name="pname" /><br /><br />
-            <label for="ptype">Pet's Type:</label><br />
-            <input type="text" id="ptype" name="ptype" /><br /><br />
+            <label for="ptype">Pet's Type:</label><br>
+            <select name="ptype" id="ptype" >
+                <option value="cat">Cat</option>
+                <option value="dog">Dog</option>
+                <option value="fish">Fish</option>
+            </select>
+            <br /><br>
             <label for="pAge">Pet's Age:</label><br />
-            <input type="number" id="pAge" name="pAge" /><br /><br />
-        </br>
+            <input type="number" id="pAge" name="pAge" /><br /><br /> 
+
             <input type="submit" id="submit" name="submit" /><br /><br />
           </form>
         </div>
