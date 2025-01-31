@@ -8,6 +8,12 @@
   padding-bottom: 17px;
 }
 
+homepageHeaderDiv1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 23px;
+}
+
 #homepagelogo {
   width: 100px;
   height: 100px;
@@ -57,12 +63,7 @@ li {
   font-size: 20px;
 }
 
-ul li:hover {
-  color: red;
-}
-
 .dropdownItem:hover {
-  color: red;
   text-decoration: none;
 }
 
@@ -144,4 +145,40 @@ footer {
   color: red;
   font-size: 18px;
   height: 4vh;
+}
+
+.cursorSize li:hover,
+#contactusarrow:hover {
+  font-size: 25px;
+  background-color: red;
+}
+
+#fishCursor:hover,
+#aspcaCursor:hover {
+  font-size: 20px;
+  background-color: red;
+}
+
+#sticky {
+  position: sticky;
+  text-decoration: none;
+  background-color: #bdbdbd;
+  padding: 1vw;
+  border-radius: 100px;
+  text-align: center;
+}
+
+#sticky:hover {
+  background-color: red;
+  font-size: 22px;
+}
+
+#backHomeButton {
+  font-size: 16px;
+  margin-left: 3vw;
+}
+
+#backHomeButton:hover {
+  font-size: 20px;
+  background-color: red;
 }
